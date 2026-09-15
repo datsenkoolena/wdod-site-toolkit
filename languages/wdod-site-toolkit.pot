@@ -1,0 +1,543 @@
+# Copyright (C) 2026 WDOD
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WDOD Site Toolkit 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/datsenkoolena/wdod-site-toolkit/issues\n"
+"POT-Creation-Date: 2026-09-14 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: manual\n"
+"X-Domain: wdod-site-toolkit\n"
+
+#. Plugin Name of the plugin
+#: wdod-site-toolkit.php
+msgid "WDOD Site Toolkit"
+msgstr ""
+
+#. Description of the plugin
+#: wdod-site-toolkit.php
+msgid "Maintenance and troubleshooting toolkit for WordPress: environment report, debug log viewer, staging mode (blocks outgoing mail, noindex), performance tweaks, login hardening and WP-CLI commands."
+msgstr ""
+
+#. Author of the plugin
+#: wdod-site-toolkit.php
+msgid "WDOD"
+msgstr ""
+
+#: includes/class-plugin.php
+msgid "WDOD Site Toolkit requires PHP 7.4 or newer."
+msgstr ""
+
+#: includes/class-plugin.php
+msgid "Plugin activation error"
+msgstr ""
+
+#: includes/class-settings.php
+msgid "WDOD Site Toolkit settings."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Environment"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Debug Log"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Staging"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Performance"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Security"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "WDOD Toolkit"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Copied!"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Copy failed - select the text and copy manually."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Updated"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Could not refresh the log."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+#: includes/admin/views/debug-log.php
+msgid "The log file is empty."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+#: includes/admin/views/debug-log.php
+msgid "No debug.log file exists yet."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Status:"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Staging mode is ON"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Staging mode is OFF"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Emails blocked so far:"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Reset counter"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Allowlisted recipients (filter wdod_site_toolkit_mail_allowlist):"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+#: includes/class-environment-report.php
+msgid "none"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Staging mode"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Turn this on for staging/development copies of a site. Outgoing email is blocked (wp_mail() and PHPMailer), the site is set to noindex/nofollow, \"Discourage search engines\" is forced on and a red STAGING badge appears in the admin bar."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Enable staging mode"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Blocks outgoing mail, adds noindex and shows the admin bar badge."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Heartbeat interval (seconds)"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Between 15 and 120. Applies only when the Heartbeat toggle above is on."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Revisions to keep per post"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "0 disables revisions. Applies only when the revisions toggle above is on."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Performance tweaks"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Small, safe optimisations that remove things most sites never use. Every option can be switched off again at any time."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Writes to the PHP error log (debug.log when WP_DEBUG_LOG is on). At most 10 lines per IP every 15 minutes."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Customise the message with the wdod_site_toolkit_login_error_message filter."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Login hardening"
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Reduces the information an attacker can collect from the login form and public endpoints. This is not a replacement for strong passwords or 2FA."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "Not allowed."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "The debug log has been cleared."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "The debug log could not be cleared. Check the file permissions."
+msgstr ""
+
+#: includes/admin/class-admin-page.php
+msgid "The blocked-mail counter has been reset."
+msgstr ""
+
+#: includes/admin/views/environment.php
+msgid "A snapshot of the server, WordPress and active code. Use \"Copy report\" to paste it into a support ticket or a hand-over document."
+msgstr ""
+
+#: includes/admin/views/environment.php
+msgid "Copy report"
+msgstr ""
+
+#: includes/admin/views/environment.php
+msgid "Plain-text report"
+msgstr ""
+
+#. translators: 1: WP_DEBUG, 2: WP_DEBUG_LOG
+#: includes/admin/views/debug-log.php
+msgid "%1$s / %2$s are not enabled, so WordPress is not writing to this file right now. Add them to wp-config.php to start collecting notices."
+msgstr ""
+
+#: includes/admin/views/debug-log.php
+msgid "File"
+msgstr ""
+
+#: includes/admin/views/debug-log.php
+msgid "Status"
+msgstr ""
+
+#. translators: %s: human readable file size
+#: includes/admin/views/debug-log.php
+msgid "Exists, %s"
+msgstr ""
+
+#: includes/admin/views/debug-log.php
+msgid "(read-only for PHP)"
+msgstr ""
+
+#: includes/admin/views/debug-log.php
+msgid "Not created yet"
+msgstr ""
+
+#: includes/admin/views/debug-log.php
+msgid "Download log"
+msgstr ""
+
+#: includes/admin/views/debug-log.php
+msgid "Clear the debug log? This cannot be undone."
+msgstr ""
+
+#: includes/admin/views/debug-log.php
+msgid "Clear log"
+msgstr ""
+
+#: includes/admin/views/debug-log.php
+msgid "Auto-refresh every 10 seconds"
+msgstr ""
+
+#. translators: %s: size in kilobytes
+#: includes/admin/views/debug-log.php
+msgid "Showing only the last %s of the file. Download it to see everything."
+msgstr ""
+
+#: includes/admin/views/settings-tab.php
+msgid "Save changes"
+msgstr ""
+
+#: includes/class-debug-log.php
+msgid "The debug log does not exist or is not readable."
+msgstr ""
+
+#: includes/class-debug-log.php
+msgid "The debug log could not be opened."
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Server"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "WordPress"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Debugging"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Cron & cache"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Theme"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Active plugins"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "PHP version"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "PHP SAPI"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Web server"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Database server"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "PHP memory_limit"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "WP_MEMORY_LIMIT"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "WP_MAX_MEMORY_LIMIT"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "max_execution_time"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "upload_max_filesize"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "post_max_size"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Effective max upload"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "PHP extensions"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Missing extensions"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "WordPress version"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Site URL"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Home URL"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "HTTPS"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Multisite"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Locale"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Timezone"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Permalink structure"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Plain"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Search engine visibility"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Visible"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Discouraged (noindex)"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Environment type"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "PHP display_errors"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Debug log path"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Debug log size"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "not created"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Next scheduled event"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "External object cache"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "OPcache"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Active theme"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Theme directory"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Block theme"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Parent theme"
+msgstr ""
+
+#. translators: %s: plugin name
+#: includes/class-environment-report.php
+msgid "%s (must-use)"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "Plugins"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "none active"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "nothing scheduled"
+msgstr ""
+
+#. translators: 1: date/time, 2: hook name
+#: includes/class-environment-report.php
+msgid "%1$s (%2$s) - overdue"
+msgstr ""
+
+#. translators: 1: date/time, 2: hook name
+#: includes/class-environment-report.php
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "undefined"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "yes"
+msgstr ""
+
+#: includes/class-environment-report.php
+msgid "no"
+msgstr ""
+
+#: includes/modules/class-staging-mode.php
+msgid "STAGING"
+msgstr ""
+
+#: includes/modules/class-staging-mode.php
+msgid "Staging mode is on: outgoing mail is blocked and the site is set to noindex."
+msgstr ""
+
+#: includes/modules/class-staging-mode.php
+msgid "Staging mode is active. Outgoing email is blocked (except allowlisted addresses) and search engines are told not to index this site."
+msgstr ""
+
+#: includes/modules/class-performance.php
+msgid "Disable emoji detection script and styles"
+msgstr ""
+
+#: includes/modules/class-performance.php
+msgid "Disable oEmbed discovery, wp-embed script and embed rewrite rules"
+msgstr ""
+
+#: includes/modules/class-performance.php
+msgid "Disable XML-RPC, pingbacks and the RSD link"
+msgstr ""
+
+#: includes/modules/class-performance.php
+msgid "Slow down the Heartbeat API"
+msgstr ""
+
+#: includes/modules/class-performance.php
+msgid "Limit the number of post revisions"
+msgstr ""
+
+#: includes/modules/class-login-hardening.php
+msgid "Replace detailed login errors with a generic message"
+msgstr ""
+
+#: includes/modules/class-login-hardening.php
+msgid "Block ?author=N user enumeration for visitors"
+msgstr ""
+
+#: includes/modules/class-login-hardening.php
+msgid "Hide the REST API users endpoint from visitors"
+msgstr ""
+
+#: includes/modules/class-login-hardening.php
+msgid "Log failed login attempts (with IP) to the PHP error log"
+msgstr ""
+
+#: includes/modules/class-login-hardening.php
+msgid "The username or password you entered is incorrect."
+msgstr ""
+
+#: includes/modules/class-login-hardening.php
+msgid "Error:"
+msgstr ""

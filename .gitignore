@@ -1,0 +1,16 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Tooling
+.phpcs-cache
+composer.lock
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
